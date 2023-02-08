@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import './login.css';
 //import SetCookie from "../cookies/setCookie";
 //import GetCookie from "../cookies/getCookie";
 //import RemoveCookie from "../cookies/removeCookie";
@@ -20,11 +21,11 @@ import React, {useState} from "react";
     }
 
         return(
-            <div>
+            <div className="login">
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name"> UserName</label>
-                <input onChange={handleChange} value={name} id="login_name" type="text" name="name" placeholder="write your name" required />
-                <button type="submit">Submit</button>
+                <input onChange={handleChange} value={name} id="login_name" type="text" name="name" placeholder="Write your name" required />
+                <button type="submit">Login</button>
             </form>
         </div>
         )

@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 225, 89);
+}
+
+.login {
+  margin: 5%;
+  background-color: white;
+  padding: 5%;
+  width: 35%;
+}
+.login label {
+  padding: 5px 0;
+  color: rgb(121, 120, 115);
+}
+.login input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.login button {
+  width: 100%;
+  background-color: rgb(255, 225, 89);
+  padding: 10px 0;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 225, 89);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.login button:hover {
+  background-color: #ffd205;
+}/*# sourceMappingURL=login.css.map */
