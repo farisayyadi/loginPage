@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./login.css";
-//import SetCookie from "../cookies/setCookie";
-//import GetCookie from "../cookies/getCookie";
-//import RemoveCookie from "../cookies/removeCookie";
+import "./SignUp.css";
 
-const Login = () => {
+const SignUp = () => {
+  const [email, setEmail] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
@@ -15,12 +13,21 @@ const Login = () => {
   };
 
   return (
-    <div className="login">
-      <h1>Login</h1>
+    <div className="signUp">
+      <h1>Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <input
           onChange={(e) => setUsername(e.target.value)}
           value={username}
+          id="login_name"
+          type="text"
+          name="username"
+          placeholder="UserName"
+          required
+        />
+        <input
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
           id="login_name"
           type="email"
           name="username"
@@ -36,14 +43,11 @@ const Login = () => {
           placeholder="Password"
           required
         />
-        <button type="submit">Login</button>
-        <Link to="/forgetPassword" className="tagA firstLink">
-          Forget Your Password
-        </Link>
+        <button type="submit">Sign Up</button>
         <div className="secondLink">
-          <p>Not registered?</p>
-          <Link to="/signUp" className="tagA">
-            Create Account
+          <p>Already have account</p>
+          <Link className="tagA " to="/">
+            Login
           </Link>
         </div>
       </form>
@@ -51,4 +55,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;

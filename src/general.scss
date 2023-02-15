@@ -1,15 +1,20 @@
-$background-color :rgb(255, 225, 89);
+$main-background-color: #76a197;
+$first-background-color :#ffba32;
+$second-background-color :#1a545c;
+$button-hover-color:#1a727b;
 $white-color : #ffff;
 $border-radius : 5px;
-$dark-background-color:#ffd205;
 $font-color: rgb(121, 120, 115);
+
+
+
 
 *{
     box-sizing: border-box;
 }
 body{
 
-    background-color: $background-color;
+    background-color: $main-background-color;
 
 
 }

@@ -6,24 +6,24 @@ body {
   background-color: #76a197;
 }
 
-.login {
+.signUp {
   margin: 5%;
   background-color: #ffba32;
   padding: 2% 5%;
   width: 40%;
   border-radius: 5px;
 }
-.login form {
+.signUp form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.login form label {
+.signUp form label {
   padding: 5px 0;
   color: rgb(121, 120, 115);
 }
-.login form input {
+.signUp form input {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
@@ -31,10 +31,10 @@ body {
   background-color: unset;
   border-bottom: 1px solid #1a545c;
 }
-.login form input:hover, .login form input:active, .login form input:focus, .login form input:visited {
+.signUp form input:hover, .signUp form input:active, .signUp form input:focus, .signUp form input:visited {
   outline: none;
 }
-.login form button {
+.signUp form button {
   width: 100%;
   background-color: #1a545c;
   padding: 10px 0;
@@ -45,17 +45,17 @@ body {
   color: white;
   margin-top: 20px;
 }
-.login form button:hover {
+.signUp form button:hover {
   background-color: #1a727b;
 }
-.login form .tagA {
+.signUp form .tagA {
   text-decoration: none;
   color: rgb(121, 120, 115);
 }
-.login form .tagA:hover {
+.signUp form .tagA:hover {
   color: #1a545c;
 }
-.login form .firstLink {
+.signUp form .firstLink {
   width: 100%;
   background-color: unset;
   font-size: 0.9rem;
@@ -63,16 +63,16 @@ body {
   margin: unset;
   padding: 2% 0;
 }
-.login form .secondLink {
+.signUp form .secondLink {
   text-align: left;
   width: 100%;
   font-size: 0.9rem;
 }
-.login form .secondLink p {
+.signUp form .secondLink p {
   display: inline;
   padding: 0 2% 0 0;
   color: #1a545c;
 }
-.login form .secondLink .tagA {
+.signUp form .secondLink .tagA {
   font-size: 0.9rem;
-}/*# sourceMappingURL=login.css.map */
+}/*# sourceMappingURL=SignUp.css.map */
