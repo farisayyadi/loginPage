@@ -4,7 +4,8 @@
   margin: 5%;
   background-color: $first-background-color;
   padding: 2% 5%;
-  width: 40%;
+  width: 500px;
+  height: auto;
   border-radius: $border-radius;
   form {
     display: flex;
@@ -66,7 +67,7 @@
       width: 100%;
       font-size: 0.9rem;
       p {
-        display: inline;
+        display: inline-block;
         padding: 0 2% 0 0;
         color: $second-background-color;
       }

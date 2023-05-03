@@ -1,20 +1,18 @@
 $main-background-color: #76a197;
-$first-background-color :#ffba32;
-$second-background-color :#1a545c;
-$button-hover-color:#1a727b;
-$white-color : #ffff;
-$border-radius : 5px;
+$first-background-color: #ffba32;
+$second-background-color: #1a545c;
+$button-hover-color: #1a727b;
+$white-color: #ffff;
+$border-radius: 5px;
 $font-color: rgb(121, 120, 115);
 
-
-
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-
-    background-color: $main-background-color;
-
-
+body {
+  background-color: $main-background-color;
+  input:-internal-autofill-selected {
+    border-radius: 5px;
+    border-bottom: none;
+  }
 }

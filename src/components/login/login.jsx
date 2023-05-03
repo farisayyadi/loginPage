@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./login.css";
+import "./login.scss";
 //import SetCookie from "../cookies/setCookie";
 //import GetCookie from "../cookies/getCookie";
 //import RemoveCookie from "../cookies/removeCookie";
